@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.logojordan {
+    width: 24px;
+    height: 24px;
+}
+
+.logonike {
+    width: 70px;
+    height: 70px;
+}
+
+.segundoul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.primerul {
+    background-color: #F5F5F5;
+}
+
+.logojordan {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.slidernavbar {
+    background-color: #F5F5F5;
+}
+
+.prenavbaropciones {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.navbaropciones {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
