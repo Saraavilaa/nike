@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 <!--TITULO-->
     <title>Nike Argentina</title>
 </head>
 <body>
     <!--HEADER-->
-    <header>
+    <header class="header">
             <ul class="primerul">
                 <li><img class="logojordan" src="imagenes/logospagina/air-jordan-logo.png" alt="Logo de Jordan"></li>
-                <li class="prenavbaropciones"><a href="pages/suscribite.html">Suscribite </a>|<a href="pages/buscartienda.html">Buscar Tienda </a>|<a href="pages/ayuda.html">Ayuda </a></li>
+                <li class="prenavbaropciones"><a href="pages/suscribite.html">Suscribite</a>|<a href="pages/buscartienda.html">Buscar Tienda</a>|<a href="pages/ayuda.html">Ayuda</a></li>
                 <li></li>
             </ul>
             <nav>
@@ -47,13 +47,15 @@
     <!--FIN HEADER-->
     <!--SECTION CON IMAGENES INICIO-->
     <section>
-        <a href=""><img src="imagenes/productos/Camisas-san-lorenzo.png" alt="Camisas de San Lorenzo"></a>
+        <a href=""><img class="imagensanlorenzo" src="imagenes/productos/Camisas-san-lorenzo.png" alt="Camisas de San Lorenzo"></a>
+        <div class="textosdebajodeimagenes">
         <p>NUEVA COLECCION 2024</p>
         <p>SAN LORENZO VA</p>
         <button>Comprar</button><button>Conoce mas</button>
+        </div>
     </section>
     <section>
-        <a href=""><img src="imagenes/productos/airforce.png" alt="Air force"></a>
+        <a href=""><img class="imagenairforce" src="imagenes/productos/airforce.png" alt="Air force"></a>
         <p>AIR FORCE</p>
         <button>Comprar</button>
     </section>
@@ -271,14 +273,13 @@
     </div>
     <!--FIN PREFOOTER INFO-->
     <!--INICIO FOOTER-->
-    <footer>
+    <footer class="footer">
         <div>
-            <p>BUSCAR TIENDA</p>
-            <p>SUMATE A LA COMUNIDAD</p>
+            <p class="textosgrandesfooter">BUSCAR TIENDA</p>
         </div>
         <div>
-            <ul>
-                <li>AYUDA</li>
+            <p class="textosgrandesfooter">AYUDA</p>
+            <ul class="ulfooter">
                 <li>Envios y entregas</li>
                 <li>Devoluciones</li>
                 <li>Cambios</li>
@@ -292,16 +293,16 @@
             </ul>
         </div>
         <div>
-            <ul>
-                <li>ACERCA DE NIKE</li>
+            <p class="textosgrandesfooter">ACERCA DE NIKE</p>
+            <ul class="ulfooter">
                 <li>Noticias</li>
                 <li>Inversionistas</li>
                 <li>Sustentabilidad</li>
             </ul>
         </div>
         <div>
-            <ul>
-                <li>NOVEDADES NIKE</li>
+            <p class="textosgrandesfooter">NOVEDADES NIKE</p>
+            <ul class="ulfooter">
                 <li>Encontra tu calzado</li>
                 <li>¿Como elegir tu top?</li>
                 <li>Tips saludables</li>
