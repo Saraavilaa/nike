@@ -1,9 +1,11 @@
 /* HEADER */
 
+/* LOGOS HEADER */
 .logojordan {
     width: 22px;
     height: 22px;
     margin-left: 63px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
 }
@@ -13,24 +15,32 @@
     height: 70px;
     margin-left: 63px;
 }
-
-.prenavbaropciones {
-    font-size: 13px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 40px;
-    color: black; 
-    text-decoration: none; 
-}
+/* FIN LOGOS HEADER */
 
 .primerul {
     background-color: #F5F5F5;
     align-items: center;
 }
 
+.prenavbaropciones {
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: black; 
+    text-decoration: none; 
+}
+
+
 .slidernavbar {
     background-color: #F5F5F5;
     color: black;
+}
+
+.sliderops {
+    color: black;
+    font-style: none;
 }
 
 .segundoul {
@@ -42,22 +52,32 @@
 }
 
 .navbaropciones {
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
 }
 
 .imagensanlorenzo {
-    width: 1800px;
-    height: auto;
+    width: 1332px;
+    height: 575px;
     display: flex;
     justify-content: center;
+    margin-left: 200px ;
 }
 
 .textosdebajodeimagenes {
     color: black;
     display: flex;
     justify-content: center;
+}
+
+.botonesnegros {
+    padding: 10px 20px 10px 20px;
+    color: #FFFFFF;
+    background-color: #111111;
+    border-radius: 40em;
+    border: none;
+    font-size: 14px;
 }
 
 .imagenairforce {

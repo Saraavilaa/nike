@@ -7,10 +7,12 @@
 }
 
 /* HEADER */
+/* LOGOS HEADER */
 .logojordan {
   width: 22px;
   height: 22px;
   margin-left: 63px;
+  margin-top: 20px;
   display: flex;
   justify-content: flex-start;
 }
@@ -21,23 +23,30 @@
   margin-left: 63px;
 }
 
-.prenavbaropciones {
-  font-size: 13px;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 40px;
-  color: black;
-  text-decoration: none;
-}
-
+/* FIN LOGOS HEADER */
 .primerul {
   background-color: #F5F5F5;
   align-items: center;
 }
 
+.prenavbaropciones {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+}
+
 .slidernavbar {
   background-color: #F5F5F5;
   color: black;
+}
+
+.sliderops {
+  color: black;
+  font-style: none;
 }
 
 .segundoul {
@@ -49,22 +58,32 @@
 }
 
 .navbaropciones {
-  color: black;
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
 }
 
 .imagensanlorenzo {
-  width: 1800px;
-  height: auto;
+  width: 1332px;
+  height: 575px;
   display: flex;
   justify-content: center;
+  margin-left: 200px;
 }
 
 .textosdebajodeimagenes {
   color: black;
   display: flex;
   justify-content: center;
+}
+
+.botonesnegros {
+  padding: 10px 20px 10px 20px;
+  color: #FFFFFF;
+  background-color: #111111;
+  border-radius: 40em;
+  border: none;
+  font-size: 14px;
 }
 
 .imagenairforce {
@@ -82,6 +101,84 @@
 
 .ulfooter {
   color: #7E7E7E;
+}
+
+.whiteulfooter {
+  color: white;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+}
+
+.hijo1 {
+  grid-area: 1/1/3/2;
+}
+
+.hijo2 {
+  grid-area: 1/2/3/3;
+}
+
+.hijo3 {
+  grid-area: 1/3/3/4;
+}
+
+.hijo4 {
+  grid-area: 1/4/3/5;
+}
+
+.hijo5 {
+  grid-area: 1/5/3/6;
+}
+
+.hijo6 {
+  grid-area: 1/6/3/7;
+}
+
+.itemsfooter {
+  margin-top: 40px;
+}
+
+.sid {
+  width: 120px;
+  height: auto;
+}
+
+.sidqr {
+  width: 40px;
+  height: auto;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  align-items: center;
+}
+
+.bajofooter {
+  border-top: 1px solid #1d1e1e;
+}
+
+.textoargentina {
+  color: white;
+  text-decoration: none;
+}
+
+.textosbajofootergeneral {
+  font-size: 12px;
+  color: #7E7E7E;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ubicacionicon {
+  width: 10px;
+  margin-right: 5px;
+  height: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
