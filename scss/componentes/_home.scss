@@ -4,10 +4,6 @@
 .logojordan {
     width: 22px;
     height: 22px;
-    margin-left: 63px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .logonike {
@@ -17,9 +13,11 @@
 }
 /* FIN LOGOS HEADER */
 
-.primerul {
-    background-color: #F5F5F5;
+.sectiondeheader {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: #F5F5F5;
 }
 
 .prenavbaropciones {
@@ -55,6 +53,7 @@
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .imagensanlorenzo {
