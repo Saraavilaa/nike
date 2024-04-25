@@ -10,7 +10,6 @@
 .logonike {
     width: 70px;
     height: 70px;
-    margin-left: 63px;
 }
 /* FIN LOGOS HEADER */
 
@@ -32,7 +31,7 @@
     text-decoration: none; 
 }
 
-
+// slider
 .slidernavbar {
     background-color: #F5F5F5;
     color: black;
@@ -42,21 +41,33 @@
     color: black;
     font-style: none;
 }
+// fin slider 
 
-.segundoul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    width: 100%;
-}
+//navbar
+.padrecin {
+    display: grid;
+    grid-template-columns: 1fr 3fr repeat(6, 1fr) 2fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 22px;
+    grid-row-gap: 0px;
+    }
+    
+    .hijin1 { grid-area: 1 / 1 / 2 / 2; }
+    .hijin2 { grid-area: 1 / 3 / 2 / 4; }
+    .hijin3 { grid-area: 1 / 4 / 2 / 5; }
+    .hijin4 { grid-area: 1 / 5 / 2 / 6; }
+    .hijin5 { grid-area: 1 / 6 / 2 / 7; }
+    .hijin6 { grid-area: 1 / 7 / 2 / 8; }
+    .hijin7 { grid-area: 1 / 8 / 2 / 9; }
+    .hijin8 { grid-area: 1 / 10 / 2 / 11; }
+    .hijin9 { grid-area: 1 / 11 / 2 / 12; }
+
 
 .navbaropciones {
     color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
     text-decoration: none;
 }
+//fin nav
 
 .imagensanlorenzo {
     width: 1332px;
