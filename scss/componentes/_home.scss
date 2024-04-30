@@ -22,6 +22,7 @@
     background-color: #F5F5F5;
 }
 
+// PRE NAV 
 .prenavbaropciones {
     font-size: 13px;
     display: flex;
@@ -32,8 +33,8 @@
     color: black; 
     text-decoration: none; 
 }
-
-// slider
+// FIN PRE NAV
+// SLIDER
 .slidernavbar {
     background-color: #F5F5F5;
     color: black;
@@ -43,9 +44,9 @@
     color: black;
     font-style: none;
 }
-// fin slider 
+// FIN SLIDER
 
-//navbar
+// NAVBAR
 .nav-1 {
     display: flex;
     justify-content: space-between;
@@ -73,8 +74,8 @@
     margin: 0 5px;
 }
 
-//fin nav
-//imagen san lorenzo
+// FIN NAVBAR 
+// IMAGEN SAN LORENZO
 .imagen-principal {
     display: flex;
     justify-content: center;
@@ -85,7 +86,8 @@
     width: 1200px;
     height: 575px;
 }
-//fin imagen san lorenzo
+// FIN IMG SAN LORENZO
+// BOTONES Y OTRA IMAGEN
 .textosdebajodeimagenes {
     color: black;
     display: flex;
@@ -118,7 +120,6 @@
     justify-content: center;
 }
 
-
 .botones-nuevo-nike {
     display: flex;
     justify-content: flex-end;
@@ -132,7 +133,7 @@
     background-color: #B7B7B7;
     font-size: 20px;
 }
-
+// FIN BOTONES Y IMG
 // CARROUSEL 01 INICIO
 .carrousel-01 {
     display: flex;
