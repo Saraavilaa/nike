@@ -17,6 +17,8 @@
 .logonike {
   width: 70px;
   height: 70px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* FIN LOGOS HEADER */
@@ -48,61 +50,42 @@
   font-style: none;
 }
 
-.padrecin {
-  display: grid;
-  grid-template-columns: 1fr 3fr repeat(6, 1fr) 2fr repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 22px;
-  grid-row-gap: 0px;
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
 }
 
-.hijin1 {
-  grid-area: 1/1/2/2;
-}
-
-.hijin2 {
-  grid-area: 1/3/2/4;
-}
-
-.hijin3 {
-  grid-area: 1/4/2/5;
-}
-
-.hijin4 {
-  grid-area: 1/5/2/6;
-}
-
-.hijin5 {
-  grid-area: 1/6/2/7;
-}
-
-.hijin6 {
-  grid-area: 1/7/2/8;
-}
-
-.hijin7 {
-  grid-area: 1/8/2/9;
-}
-
-.hijin8 {
-  grid-area: 1/10/2/11;
-}
-
-.hijin9 {
-  grid-area: 1/11/2/12;
+.segundoul {
+  display: flex;
+  justify-content: center;
 }
 
 .navbaropciones {
   color: rgb(0, 0, 0);
   text-decoration: none;
+  margin: 0 10px;
+}
+
+.icon-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-nav li {
+  margin: 0 5px;
+}
+
+.imagen-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imagensanlorenzo {
-  width: 1332px;
+  width: 1200px;
   height: 575px;
-  display: flex;
-  justify-content: center;
-  margin-left: 200px;
 }
 
 .textosdebajodeimagenes {
@@ -123,6 +106,83 @@
 .imagenairforce {
   width: 1700px;
   height: auto;
+}
+
+.imagen-airforce-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-bajo-img-air-force {
+  display: flex;
+  justify-content: center;
+}
+
+.botones-nuevo-nike {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botongris {
+  border-radius: 100%;
+  margin: 0 7px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  background-color: #B7B7B7;
+  font-size: 20px;
+}
+
+.carrousel-01 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.txt-carrousel-01, a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.lo-nuevo {
+  color: #FB7633;
+}
+
+.descripciones-txt-gris {
+  color: #757575;
+}
+
+.div-2img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.imagenes-div2 {
+  width: 900px;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img-banner {
+  width: auto;
+  height: 605px;
+}
+
+.button-section3 {
+  padding: 10px 20px 10px 20px;
+  color: #000000;
+  background-color: #9e9e9e;
+  border-radius: 40em;
+  border: none;
+  font-size: 14px;
 }
 
 .footer {
