@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* COMPONENTES */
 * {
   margin: 0%;
@@ -183,6 +184,43 @@
   border-radius: 40em;
   border: none;
   font-size: 14px;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-0 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+}
+
+.grid-01-iconos {
+  grid-area: 1/1/4/2;
+}
+
+.grid-02-calzado {
+  grid-area: 1/2/4/3;
+}
+
+.grid-03-ropa {
+  grid-area: 1/3/4/4;
+}
+
+.grid-04-niño {
+  grid-area: 1/4/4/5;
+}
+
+.grid-0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 55px 15px 55px 15px;
+  gap: 0 90px;
 }
 
 .footer {
