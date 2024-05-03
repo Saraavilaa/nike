@@ -90,14 +90,18 @@
 }
 
 .textosdebajodeimagenes {
-  color: black;
-  display: flex;
-  justify-content: center;
+  text-align: center;
+}
+
+.textosdebajodeimagenes p {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .botonesnegros {
   padding: 10px 20px 10px 20px;
   color: #FFFFFF;
+  margin: 5px 5px 20px 5px;
   background-color: #111111;
   border-radius: 40em;
   border: none;
@@ -116,8 +120,8 @@
 }
 
 .txt-bajo-img-air-force {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
 }
 
 .botones-nuevo-nike {
@@ -127,7 +131,7 @@
 
 .botongris {
   border-radius: 100%;
-  margin: 0 7px;
+  margin: 0px 7px 10px 0px;
   padding: 10px 15px 10px 15px;
   border: none;
   background-color: #B7B7B7;
@@ -138,6 +142,10 @@
   display: flex;
   justify-content: space-between;
   gap: 15px;
+}
+
+.imagenescarrousel {
+  width: 400px;
 }
 
 .txt-carrousel-01, a {
@@ -175,6 +183,13 @@
 .img-banner {
   width: auto;
   height: 605px;
+}
+
+.section-3img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 20px 10px 20px;
 }
 
 .button-section3 {

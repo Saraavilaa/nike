@@ -88,16 +88,21 @@
 }
 // FIN IMG SAN LORENZO
 // BOTONES Y OTRA IMAGEN
-.textosdebajodeimagenes {
-    color: black;
-    display: flex;
-    justify-content: center;
 
-}
+.textosdebajodeimagenes {
+    text-align: center;
+  }
+  
+.textosdebajodeimagenes p {
+    display: block; 
+    margin-bottom: 10px;
+  }
+  
 
 .botonesnegros {
     padding: 10px 20px 10px 20px;
     color: #FFFFFF;
+    margin: 5px 5px 20px 5px;
     background-color: #111111;
     border-radius: 40em;
     border: none;
@@ -116,8 +121,8 @@
 }
 
 .txt-bajo-img-air-force {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 
 .botones-nuevo-nike {
@@ -127,18 +132,23 @@
 
 .botongris {
     border-radius: 100%;
-    margin: 0 7px;
+    margin: 0px 7px 10px 0px;
     padding: 10px 15px 10px 15px;
     border: none;
     background-color: #B7B7B7;
     font-size: 20px;
 }
+
 // FIN BOTONES Y IMG
 // CARROUSEL 01 INICIO
 .carrousel-01 {
     display: flex;
     justify-content: space-between;
     gap: 15px;
+}
+
+.imagenescarrousel {
+    width: 400px;
 }
 
 .txt-carrousel-01, a { //OJO CON ESTA A Q ME MODIFICA TODO
@@ -187,6 +197,12 @@
 
 //DIV 3 FOTITOS FALTA
 
+.section-3img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
 
 .button-section3 {
     padding: 10px 20px 10px 20px;
@@ -197,11 +213,12 @@
     font-size: 14px;
 }
 
+// TXT CENTRADO DE LAS IMAGENES DEPORTIVAS 
 .center-text {
     display: flex;
     justify-content: center;
 }
-
+// FIN TXT CENTRADO
 //GRID PRE FOOTER 
 
 .grid-0 {
